@@ -289,5 +289,7 @@ SetBackgroundColor 0 0 0 125
 # This is here to prevent people to use this filter for AGES. Expert items will get removed eventually
 # Get a new filter from www.filterblade.xyz
 
+# Add a red border to Expert items
 Show
-BaseType == "Expert Laced Boots"
+BaseType "Expert"
+SetBorderColor 255 0 0 255
